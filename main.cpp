@@ -1,3 +1,5 @@
+//Author: Matthew Burnsi
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -24,6 +26,22 @@ int main()
   //the first and second blanks should be replaced with the coordinates
   //of the element's row and column and the third blank should be replaced
   //with the value of that element
+        int row;
+        int column;
+
+        cout<<"Please enter a row: "<<endl;
+        cin>>row>>endl;
+        cout<<"Please enter a column: "<<endl;
+        cin>>column>>endl;
+
+        cout<<"Row: "<<row<<endl;
+        cout<<"Column: "<<column<<endl;
+        cout<<"is: "<<wordGrid[row][column]<<endl;
+
+
+
+
+
 
   
 
